@@ -1,9 +1,9 @@
 from const import *
 
-class BoardDims:
+class BoardDim:
 
     def __init__(self, size, xcor, ycor):
         self.size = size
-        self.sqsize = size // ROWS
+        self.sqsize = size // DIM
         self.xcor = xcor
         self.ycor = ycor
